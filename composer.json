@@ -1,0 +1,20 @@
+{
+    "name": "a1comms/laravel-middleware",
+    "description": "Shared Laravel 5.1 compatible middleware.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Melrose",
+            "email": "sam.melrose@a1comms.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "A1comms\\Middleware\\": "src/A1comms/Middleware/"
+        }
+    },
+    "minimum-stability": "stable"
+}
